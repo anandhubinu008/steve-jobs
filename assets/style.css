@@ -1,0 +1,247 @@
+*{
+
+    font-family:Arial, Helvetica, sans-serif
+
+}
+body{
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    background-color: black;
+    top: 0%;
+    position: fixed;
+    text-align: center;
+    color: white;
+    height: 170px;
+    letter-spacing: 2px;
+}
+.header h1{
+    padding-top: 30px;
+    font-size: 35px;
+    height: 25px;
+}
+.header p{
+   font-size: 20px;
+}
+.section-1 {
+    margin-top: 175px;
+    height: 600px;
+    display: flex;
+    flex-flow: wrap;
+    padding: 5px;
+    
+}
+.quates{
+
+   flex: 1;
+   padding-left: 10%;
+   padding-top: 15%;
+   font-size: 40px;
+   left: 1px;
+   font-weight: bolder;
+   
+}
+
+.stevejobs-img{
+ flex: 1;
+}
+#img-1{
+height: 787px;
+}
+.section-2{
+    left: 0;
+    height: 750px;
+    display: flex;
+    flex-flow: wrap;
+    border: 1px black solid;
+    background-color: black;
+    
+
+}
+.section-2 .logo{
+    flex: 1;
+    padding-left: 13%;
+    padding-top: 19%;
+}
+#img-2{
+    height: 300px;
+}
+.contant{
+    padding-top: 17%;
+    padding-left: 14%;
+    color: aliceblue;
+    text-align: left;
+     flex: 2;
+}
+.contant h3{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.contant p{
+    width: 500px;
+    font-size: large;
+}
+.footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .header{
+        width: 100%;
+        background-color: black;
+        top: 0%;
+        position: fixed;
+        text-align: center;
+        color: white;
+        height: 170px;
+        letter-spacing: 2px;
+    }
+    .header h1{
+        padding-top: 30px;
+        font-size: 35px;
+        height: 25px;
+    }
+    .header p{
+       font-size: 20px;
+    }
+    .section-1 {
+        margin-top: 175px;
+        height: 650px;
+        padding: 5px;
+        display: flex;
+        
+    }
+    .quates{
+       flex-wrap: ;
+       padding-left: 9%;
+       padding-top: 15%;
+       font-size: 25px;
+       left: 1px;
+       font-weight: bolder;
+       
+    }
+    
+    .stevejobs-img{
+    }
+    #img-1{
+    height: 400px;x`
+    }
+    .section-2{
+        left: 0;
+        height: 1100px;
+        border: 1px black solid;
+        background-color: black;
+        
+    
+    }
+    .section-2 .logo{
+        padding-left: 13%;
+        padding-top: 50%;
+    }
+    #img-2{
+        height: 300px;
+    }
+    .contant{
+        padding-top: 17%;
+        padding-left: 10%;
+        color: aliceblue;
+        text-align: left;
+    
+    }
+    .contant h3{
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    .contant p{
+        width: 325px;
+        font-size: large;
+    }
+    .footer{
+        height: 60px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+}
+@media screen and (min-width : 480px) {
+    .header{
+        width: 100%;
+        background-color: black;
+        top: 0%;
+        position: fixed;
+        text-align: center;
+        color: white;
+        height: 170px;
+        letter-spacing: 2px;
+    }
+    .header h1{
+        padding-top: 30px;
+        font-size: 35px;
+        height: 25px;
+    }
+    .header p{
+       font-size: 20px;
+    }
+    .section-1 {
+        margin-top: 175px;
+        height: 700px;
+        padding: 5px;
+        display: flex;
+        
+    }
+    .quates{
+       flex-wrap: ;
+       padding-left: 18%;
+       padding-top: 15%;
+       font-size: 35px;
+       left: 1px;
+       font-weight: bolder;
+       
+    }
+    
+    .stevejobs-img{
+    }
+    #img-1{
+    height: 600px;
+    padding-left: 17%;
+    }
+    .section-2{
+
+        left: 0;
+        height: 1400px;
+        background-color: black;
+        
+    
+    }
+    .section-2 .logo{
+        padding-left: 30%;
+        padding-top: 60%;
+    }
+    #img-2{
+        height: 300px;
+    }
+    .contant{
+       
+        padding-left: 20%;
+        color: aliceblue;
+        text-align: left;
+    
+    }
+    .contant h3{
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    .contant p{
+        width: 500px;
+        font-size: large;
+    }
+    .footer{
+        height: 60px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+}
